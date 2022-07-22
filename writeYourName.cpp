@@ -6,7 +6,7 @@ put the details you want to write on writeYourName.txt
 compile writeYourName.cpp -std=c++17 -o out
 ./out *.cpp *.h
 -r after all the file names will remove the comments instead of adding them,
-it assumes that there are only one comment of name btw and the comment type is /*
+it assumes that there are only one comment of name btw and the comment type is the backslash - star style one
 another assumption is that the comment will start at first line.. I don't
 bother to correct this because this is just a simple utility.
 
